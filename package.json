@@ -1,0 +1,28 @@
+{
+  "name": "cloudfront-s3-static-site-example",
+  "version": "1.0.0",
+  "description": "Cloudfront + S3 static site hosting example with building on CodeBuild.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://duruld@github.com/duruld/cloudfront-s3-static-site-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duruld/cloudfront-s3-static-site-example/issues"
+  },
+  "homepage": "https://github.com/duruld/cloudfront-s3-static-site-example#readme",
+  "dependencies": {
+    "next": "^9.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
